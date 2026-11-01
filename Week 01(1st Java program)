@@ -1,0 +1,46 @@
+public class FirstProgram {
+    public static void main(String[] args) {
+        System.out.println("Welcome to COS 201!");
+        System.out.println("I am learning computer programming.");
+        System.out.println("Programming begins with problem-solving.");
+    }
+} public class Sum {
+    public static void main(String[] args) {
+        int A = 10;
+        int B = 20;
+        int sum = A + B;
+
+        System.out.println("The sum is: " + sum);
+    }
+} public class RectangleArea {
+    public static void main(String[] args) {
+        int length = 10;
+        int width = 5;
+        int area = length * width;
+
+        System.out.println("Area of rectangle: " + area);
+    }
+} public class PassFail {
+    public static void main(String[] args) {
+        int score = 65;
+
+        if (score >= 50) {
+            System.out.println("Pass");
+        } else {
+            System.out.println("Fail");
+        }
+    }
+} public class LargestNumber {
+    public static void main(String[] args) {
+        int A = 15;
+        int B = 25;
+        int C = 10;
+
+        if (A >= B && A >= C) {
+            System.out.println("A is the largest");
+        } else if (B >= A && B >= C) {
+            System.out.println("B is the largest");
+        } else {
+            System.out.println("C is the largest");
+        }
+    }
