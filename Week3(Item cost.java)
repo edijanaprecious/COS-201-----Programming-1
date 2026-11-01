@@ -1,0 +1,64 @@
+import java.util.Scanner;
+
+public class SimpleCalculator {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter first number: ");
+        double num1 = input.nextDouble();
+
+        System.out.print("Enter second number: ");
+        double num2 = input.nextDouble();
+
+        double sum = num1 + num2;
+        double difference = num1 - num2;
+        double product = num1 * num2;
+        double quotient = num1 / num2;
+
+        System.out.println("Sum: " + sum);
+        System.out.println("Difference: " + difference);
+        System.out.println("Product: " + product);
+        System.out.println("Quotient: " + quotient);
+
+        input.close();
+    }
+} import java.util.Scanner;
+
+public class AverageCalculator {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter first score: ");
+        double score1 = input.nextDouble();
+
+        System.out.print("Enter second score: ");
+        double score2 = input.nextDouble();
+
+        System.out.print("Enter third score: ");
+        double score3 = input.nextDouble();
+
+        double total = score1 + score2 + score3;
+        double average = total / 3;
+
+        System.out.println("Total score: " + total);
+        System.out.println("Average score: " + average);
+
+        input.close();
+    }
+} import java.util.Scanner;
+
+public class ItemCost {
+    public static void main(String[] args) {
+        Scanner input = new Scanner(System.in);
+
+        System.out.print("Enter quantity of items: ");
+        int quantity = input.nextInt();
+
+        System.out.print("Enter price per item: ");
+        double price = input.nextDouble();
+
+        double totalCost = quantity * price;
+
+        System.out.println("Total cost: " + totalCost);
+
+        input.close();
