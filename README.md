@@ -4,3 +4,6 @@ This folder contains my Week 1 practical exercises for Computer Programming I. T
 COS 201 – Week 2
 
 This folder contains my Week 2 practical exercises for Computer Programming I. The exercises focus on writing basic Java programs, displaying output using System.out.print() and System.out.println(), and understanding simple program structure.
+COS 201 – Week 3
+
+This folder contains my Week 3 practical exercises for Computer Programming I. The exercises cover Java variables, data types, arithmetic operations, user input using the Scanner class, and basic calculations such as averages and item costs.
