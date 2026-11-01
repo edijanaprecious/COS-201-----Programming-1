@@ -1,0 +1,18 @@
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+        System.out.println("Welcome to COS 201.");
+        System.out.println("I am learning Java programming.");
+    }
+} public class PrintExample {
+    public static void main(String[] args) {
+        System.out.print("Hello ");
+        System.out.print("COS 201");
+    }
+} public class ErrorExample {
+    public static void main(String[] args) {
+        int number = 10;
+        int result = number * 2;
+
+        System.out.println("The result is: " + result);
+    }
